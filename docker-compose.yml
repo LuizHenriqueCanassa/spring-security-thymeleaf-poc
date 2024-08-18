@@ -1,0 +1,11 @@
+
+services:
+  db:
+    image: postgres:latest
+    container_name: poc-db
+    environment:
+      POSTGRES_USER: poc-db-user
+      POSTGRES_PASSWORD: poc-db-pass
+      POSTGRES_DB: poc-security-thymeleaf-db
+    ports:
+      - 5432:5432

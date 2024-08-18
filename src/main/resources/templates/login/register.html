@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tela de Registro</title>
+  <link rel="stylesheet" th:href="@{/static/css/login/index.css}" type="text/css">
+</head>
+<body>
+<div class="login-area">
+  <div class="login-box">
+    <form th:action="@{/login/register}" method="post">
+      <div class="input-area">
+        <label for="username">Usuário</label>
+        <input type="text" name="username" id="username">
+      </div>
+      <div class="input-area">
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password">
+      </div>
+      <button type="submit">Registrar</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>

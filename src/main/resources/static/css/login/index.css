@@ -1,0 +1,30 @@
+body {
+    min-height: 98vh;
+    background-color: #656262;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    padding: 30px 20px 35px 20px;
+    width: 20%;
+    background-color: #fff;
+}
+
+.input-area {
+    display: block;
+    margin: 15px 0;
+}
+
+.input-area input {
+    display: block;
+    width: 98%;
+}

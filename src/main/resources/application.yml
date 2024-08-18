@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-security-thymeleaf-poc
+  mvc:
+    static-path-pattern: /static/**
+  datasource:
+    url: jdbc:postgresql://localhost:5432/poc-security-thymeleaf-db
+    username: poc-db-user
+    password: poc-db-pass
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+server:
+  port: 8080
